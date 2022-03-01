@@ -1,0 +1,23 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  height: 100vmin;
+  font-size: 62.5%;
+}
+
+header section {
+  height: 10vh;
+}
+
+header section figure img {
+  height: 65px;
+  width: 70px;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=main.css.map */
