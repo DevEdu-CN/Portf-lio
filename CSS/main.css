@@ -11,13 +11,37 @@ html {
   font-size: 62.5%;
 }
 
-header section {
-  height: 10vh;
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
-header section figure img {
-  height: 65px;
-  width: 70px;
-  border-radius: 100%;
+header {
+  height: 20vh;
+}
+
+header .menuBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .menuBox__btn {
+  font-size: 2rem;
+  margin: 5px;
+  padding: 16px 13px;
+}
+
+header .menuBox__btn--question {
+  border-radius: 30px;
+  border: 2px solid;
+  font-size: 2rem;
+  margin: 5px;
+  padding: 16px 13px;
 }
 /*# sourceMappingURL=main.css.map */
