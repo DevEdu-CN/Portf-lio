@@ -9,13 +9,23 @@ header {
             font-size: 2rem;
             margin: 5px ;
             padding: 16px 13px; 
-            &--question{
-                border-radius: 30px;
-                border: 2px solid;
-                font-size: 2rem;
-                margin: 5px ;
-                padding: 16px 13px;  }
         }
+        &--question{
+            border-radius: 30px;
+            background: white;
+            background: linear-gradient(120deg, darkmagenta, crimson, orange);
+            background-size: 200% 100%;
+            background-position: 100% 0;
+            transition: background-position .5s;
+
+        &:hover {
+            border-color: white;
+            transition-duration: 0.3s linear;
+            color: white;
+
+            background-position: 0 0;
+        }
+         }
        
     }
 }

@@ -37,11 +37,21 @@ header .menuBox__btn {
   padding: 16px 13px;
 }
 
-header .menuBox__btn--question {
+header .menuBox--question {
   border-radius: 30px;
-  border: 2px solid;
-  font-size: 2rem;
-  margin: 5px;
-  padding: 16px 13px;
+  background: white;
+  background: linear-gradient(120deg, darkmagenta, crimson, orange);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-transition: background-position .5s;
+  transition: background-position .5s;
+}
+
+header .menuBox--question:hover {
+  border-color: white;
+  -webkit-transition-duration: 0.3s linear;
+          transition-duration: 0.3s linear;
+  color: white;
+  background-position: 0 0;
 }
 /*# sourceMappingURL=main.css.map */
